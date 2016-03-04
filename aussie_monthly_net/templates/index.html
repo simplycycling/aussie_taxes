@@ -1,13 +1,6 @@
-{% load staticfiles %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Aussie Taxes</title>
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
-</head>
-<body>
+{% extends 'layouts/base.html' %}
+{% block title %}Homepage - {{ block.super }}{% endblock %}
+{% block content %}
     <h1>Aussie Taxes</h1>
     <i>explained to you, by an American</i>
-</body>
-</html>
+{% endblock %}
