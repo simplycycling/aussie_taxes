@@ -4,6 +4,6 @@ A simple Django app to tell you how much net income you will have after taxes, i
 
 Written by an American.
 
-Because Aussies love being told things by an American.
+Because Aussies love being told what's what by an American.
 
 They just love it.
